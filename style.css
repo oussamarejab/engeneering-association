@@ -1,239 +1,327 @@
-body {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-header .heroheader {
-    background-image: url(photo/hero1.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 0%;
-    left: 0%;
-    top: 0%;
-    height: 600px;
-    position: relative;
-}
-
-#navbar_top {
-    background-color: #6a1735!important;
-}
-
-#navbar_top .container li {
-    color: white;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.amir {
-    position: absolute;
-    top: 158px;
-    width: 300px;
-    left: 72px;
-}
-
-.amir img {
-    width: 100%;
-}
-
-.logo {
-    position: absolute;
-    top: -14px;
-    right: -569px;
-}
-
-.carousalwhoweare {
-    background-color: #741336;
-    width: 100%;
-    padding: 30px;
-}
-
-.carousalwhoweare .card-body {
-    text-align: center;
-    align-items: center;
-    color: white;
-    box-shadow: 5px 10px 8px #210606;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: ease 1s all;
-}
-
-.carousalwhoweare .card-body:hover {
-    transform: scale( 1.1, 1.1);
-}
-
-.carousalwhoweare .card-body {
-    font-weight: bold;
-}
-
-.carousalwhoweare .card {
-    background-color: #260d163d;
-}
-
-.swiper {
-    width: 80%;
-    height: 400px;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.whower {
-    margin: 70px 10px;
-    background-image: url(photo/pattern.png);
-}
-
-.whower .whowerd {
-    width: 60%;
-    margin: 20px auto;
-}
-
-.whower .whowerd button {
-    width: 50%;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
-    border-right: 2px solid black;
-}
-
-.vision {
-    margin: 40px auto;
-}
-
-span {
-    color: #741336;
-}
-
-.mission {
-    height: 600px;
-    width: 100%;
-    background-image: url(photo/mission_bg_w_1460.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.missiond div {}
-
-.missiond {
-    margin: 50px auto;
-    display: flex;
-    width: 80%;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-}
-
-.missiond div {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.419);
-    margin: 10px;
-}
-
-.missiond h5 {
-    font-size: 1.25rem;
-    text-align: justify;
-}
-
-.goals {
-    margin-top: 50px;
-}
-
-.news {
-    width: 90%;
-    margin: 100px auto;
-}
-
-.news h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.news .gallery-cell {
-    background-color: #6a0a2cf0;
-    color: white;
-}
-
-.news .gallery-cell img {
-    width: 200px;
-}
-
-footer {
-    background-color: #741336;
-    width: 100%;
-    height: 400px;
-    padding: 100px;
-}
-
-footer li,
-i,
-a {
-    color: #ddd;
-    margin: 10px;
-    transition: all ease 1s;
-}
-
-footer li,
-a:hover {
-    transform: scale(1.1, 1.1) !important;
-    color: black;
-}
-
-hr {
-    color: white;
-    z-index: 2;
-}
-
-footer .cpyright i,
-p {
-    display: inline;
-}
-
-footer .cpyright {
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-footer .container .row div {
-    direction: rtl;
-    text-align: right;
-}
-
-@media only screen and (min-width: 350px) and (max-width:1000px) {
-    .vision .imgdesig img {
-        display: none;
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
     }
-    .vision div {
-        display: inline !important;
+    
+    header .heroheader {
+        background-image: url(photo/hero1.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        height: 600px;
+        position: relative;
     }
+    
+    #navbar_top {
+        background-color: #6a1735!important;
+    }
+    
+    #navbar_top .container li {
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .amir {
+        position: absolute;
+        top: 158px;
+        width: 300px;
+        left: 72px;
+    }
+    
+    .amir img {
+        width: 100%;
+    }
+    
+    .logo {
+        position: absolute;
+        top: -14px;
+        right: -569px;
+    }
+    
+    .carousalwhoweare {
+        background-color: #741336;
+        width: 100%;
+        padding: 30px;
+    }
+    
+    .carousalwhoweare .card-body {
+        text-align: center;
+        align-items: center;
+        color: white;
+        box-shadow: 5px 10px 8px #210606;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: ease 1s all;
+    }
+    
+    .carousalwhoweare .card-body:hover {
+        transform: scale( 1.1, 1.1);
+    }
+    
+    .carousalwhoweare .card-body {
+        font-weight: bold;
+    }
+    
+    .carousalwhoweare .card {
+        background-color: #260d163d;
+    }
+    
+    .swiper {
+        width: 80%;
+        height: 400px;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .whowersec {
+        width: 100%;
+        background-image: url(photo/pattern.png);
+    }
+    /*     
+    .whowersec {
+        margin: -11px 10px;
+       
+    } */
+    
+    .whower {
+        margin: 70px 10px;
+    }
+    
+    .whower .whowerd {
+        width: 60%;
+        margin: 20px auto;
+    }
+    
+    .whower .whowerd button {
+        width: 50%;
+        border-bottom: 2px solid black;
+        margin-bottom: 10px;
+        border-right: 2px solid black;
+    }
+    
     .vision {
-        width: 80% !important;
+        margin: 40px auto;
     }
+    
+    span {
+        color: #741336;
+    }
+    
+    .mission {
+        height: auto;
+        width: 100%;
+        background-image: url(photo/mission_bg_w_1460.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .missiond div {}
+    
+    .missiond {
+        margin: 50px auto;
+        display: flex;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+    }
+    
     .missiond div {
-        display: inline !important;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.419);
+        margin: 10px;
     }
-}
+    
+    .missiond h5 {
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+    
+    .goals {
+        margin-top: 50px;
+    }
+    
+    .news {
+        width: 90%;
+        margin: 100px auto;
+    }
+    
+    .news h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .news .gallery-cell {
+        background-color: #6a0a2cf0;
+        color: white;
+    }
+    
+    .news .gallery-cell img {
+        width: 200px;
+    }
+    
+    footer {
+        background-color: #741336;
+        width: 100%;
+        height: auto;
+        padding: 100px;
+    }
+    
+    footer li,
+    i,
+    a {
+        color: #ddd;
+        margin: 10px;
+        transition: all ease 1s;
+    }
+    
+    footer li,
+    a:hover {
+        transform: scale(1.1, 1.1) !important;
+        color: black;
+    }
+    
+    hr {
+        color: white;
+        z-index: 2;
+    }
+    
+    footer .cpyright i,
+    p {
+        display: inline;
+    }
+    
+    footer .cpyright {
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    
+    footer .container .row div {
+        direction: rtl;
+        text-align: right;
+    }
+    /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+    
+    .social .icon-barr {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    /* Style the icon bar links */
+    
+    .social .icon-barr a {
+        display: block;
+        text-align: center;
+        padding: 11px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+    }
+    /* Style the social media icons with color, if you want */
+    
+    .social .icon-barr a:hover {
+        background-color: #000;
+    }
+    
+    .social .facebook {
+        background: #3B5998;
+        color: white;
+    }
+    
+    .social .twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .social .youtube {
+        background: #bb0000;
+        color: white;
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width:1000px) {
+        .vision .imgdesig img {
+            display: none;
+        }
+        .vision div {
+            display: inline !important;
+        }
+        .vision {
+            width: 80% !important;
+        }
+        .missiond div {
+            display: inline !important;
+        }
+        .missiond {
+            /* width: 95%; */
+            display: block;
+            margin: 0px auto;
+            padding: 13px;
+        }
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width:1165px) {
+        .missiond {
+            width: 95%;
+            display: block;
+            margin: 0px auto;
+            padding: 13px;
+        }
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width:858px) {
+        .mission .missiond .missiondeng {
+            display: none !important;
+        }
+        .missiond {
+            width: 85%;
+        }
+        .whower .whowerd {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .amir {
+            position: absolute;
+            top: 410px;
+            width: 251px;
+            left: 23px;
+        }
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width:480px) {
+        footer .container .row {
+            width: 266px;
+        }
+    }
